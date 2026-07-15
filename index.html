@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTI Informática | Montagem e Manutenção de PCs</title>
+    <meta name="description" content="Especialistas em montagem, manutenção e upgrades de PCs Gamer e Workstations em Palmas, PR.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Icons (Phosphor Icons para um visual moderno/cyberpunk) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- FontAwesome para alguns icones adicionais se necessario -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar__logo" style="display: flex; align-items: center;">
+                <img src="assets/images/logo.jpg" alt="DTI Informática" style="height: 48px; width: 48px; border-radius: 50%; border: 2px solid var(--neon-cyan);">
+            </a>
+            
+            <ul class="navbar__menu" id="nav-menu">
+                <li><a href="#hero" class="navbar__link">Início</a></li>
+                <li><a href="#about" class="navbar__link">Sobre</a></li>
+                <li><a href="#services" class="navbar__link">Serviços</a></li>
+                <li><a href="#gallery" class="navbar__link">Projetos</a></li>
+                <li><a href="#contact" class="navbar__link">Contato</a></li>
+            </ul>
+            
+            <a href="https://wa.me/5546988206884" class="navbar__cta" target="_blank">
+                <i class="ph ph-whatsapp-logo"></i> Orçamento
+            </a>
+            
+            <button class="navbar__toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?q=80&w=2000&auto=format&fit=crop" alt="PC Gamer Cyberpunk">
+        </div>
+        
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge animate-on-scroll">
+                    Hardware de Alta Performance
+                </div>
+                <h1 class="hero__title animate-on-scroll" style="transition-delay: 0.1s;">
+                    O Próximo Nível do <br><span class="gradient-text">Seu Setup</span>
+                </h1>
+                <p class="hero__subtitle animate-on-scroll" style="transition-delay: 0.2s;">
+                    Especialistas em montagem de PCs Gamer, manutenções avançadas e upgrades em Palmas-PR.
+                </p>
+                
+                <div class="hero__actions animate-on-scroll" style="transition-delay: 0.3s;">
+                    <a href="https://wa.me/5546988206884" target="_blank" class="btn btn--primary">
+                        <i class="ph ph-whatsapp-logo"></i> Fale com um Especialista
+                    </a>
+                    <a href="#services" class="btn btn--outline">
+                        Conhecer Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image animate-on-scroll">
+                    <iframe src="https://www.youtube.com/embed/P880WE4QH0Q" 
+                            title="Setup DTI Shorts"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                
+                <div class="about__text animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="section__tag">Nossa Missão</div>
+                    <h3>Elevando o padrão de hardware em Palmas e Região.</h3>
+                    <p>A DTI Informática nasceu da paixão por tecnologia de ponta e montagens perfeitas. Nós não apenas juntamos peças; nós criamos máquinas otimizadas para entregar o máximo de FPS e produtividade.</p>
+                    <p>Seja para jogar os últimos lançamentos em 4K, streamar sem travamentos, ou renderizar projetos pesados em 3D, temos a solução customizada para o seu perfil e orçamento.</p>
+                    
+                    <div class="about__stats" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 20px;">
+                        <!-- Estatísticas Fixas -->
+                        <div class="stat">
+                            <div class="stat__number">+50</div>
+                            <div class="stat__label">PCs Montados</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number">5</div>
+                            <div class="stat__label">Anos de XP</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number">100%</div>
+                            <div class="stat__label">Satisfação</div>
+                        </div>
+                        <!-- Estatísticas Fixas apenas -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section__header animate-on-scroll">
+                <div class="section__tag">O que fazemos</div>
+                <h2 class="section__title">Nossos Serviços</h2>
+                <p class="section__desc">Soluções completas em hardware, com garantia de qualidade e suporte especializado.</p>
+            </div>
+            
+            <div class="services__grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="service-card__icon">
+                        <i class="ph ph-cpu"></i>
+                    </div>
+                    <h3 class="service-card__title">Montagem Customizada</h3>
+                    <p class="service-card__desc">Assessoria completa na escolha das peças e montagem premium com cable management impecável para máximo fluxo de ar.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="service-card__icon">
+                        <i class="ph ph-wrench"></i>
+                    </div>
+                    <h3 class="service-card__title">Manutenção Preventiva</h3>
+                    <p class="service-card__desc">Limpeza profunda, troca de pasta térmica de alta condutividade e formatação para manter seu PC rodando liso.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.3s;">
+                    <div class="service-card__icon">
+                        <i class="ph ph-rocket-launch"></i>
+                    </div>
+                    <h3 class="service-card__title">Upgrades Inteligentes</h3>
+                    <p class="service-card__desc">Análise de gargalos no seu setup atual e recomendações precisas de upgrade para mais FPS gastando menos.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.4s;">
+                    <div class="service-card__icon">
+                        <i class="ph ph-bug-droid"></i>
+                    </div>
+                    <h3 class="service-card__title">Diagnóstico de Falhas</h3>
+                    <p class="service-card__desc">Seu PC não liga, dá tela azul ou desliga sozinho? Localizamos o problema com precisão laboratorial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section__header animate-on-scroll">
+                <div class="section__tag">Portfólio</div>
+                <h2 class="section__title">Nossas Montagens</h2>
+                <p class="section__desc">Confira alguns dos monstros que já saíram do nosso laboratório.</p>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item animate-on-scroll">
+                    <img src="assets/images/montagem1.png" alt="Montagem DTI 1">
+                </div>
+                <div class="gallery__item animate-on-scroll" style="transition-delay: 0.1s;">
+                    <img src="assets/images/montagem2.png" alt="Montagem DTI 2">
+                </div>
+                <div class="gallery__item animate-on-scroll" style="transition-delay: 0.2s;">
+                    <img src="assets/images/montagem3.png" alt="Montagem DTI 3">
+                </div>
+                <div class="gallery__item animate-on-scroll">
+                    <img src="assets/images/montagem4.png" alt="Montagem DTI 4">
+                </div>
+                <div class="gallery__item animate-on-scroll" style="transition-delay: 0.1s;">
+                    <img src="assets/images/montagem5.png" alt="Montagem DTI 5">
+                </div>
+            </div>
+            
+            <div class="gallery__cta animate-on-scroll">
+                <a href="https://instagram.com/dti_informatica_palmas_pr" target="_blank" class="btn btn--outline">
+                    <i class="ph ph-instagram-logo"></i> Ver mais no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section__header animate-on-scroll">
+                <div class="section__tag">Conecte-se</div>
+                <h2 class="section__title">Faça seu Orçamento</h2>
+                <p class="section__desc">Pronto para dar o próximo passo? Entre em contato por um dos nossos canais.</p>
+            </div>
+            
+            <div class="contact__grid">
+                <div class="contact__info animate-on-scroll">
+                    <h3>Fale Diretamente Conosco</h3>
+                    <p>Atendemos de segunda a sábado. Envie uma mensagem e responderemos o mais rápido possível com a solução ideal para você.</p>
+                    
+                    <div class="contact__channels">
+                        <a href="https://wa.me/5546988206884" target="_blank" class="contact-channel">
+                            <div class="contact-channel__icon contact-channel__icon--whatsapp">
+                                <i class="ph-fill ph-whatsapp-logo" style="color: #25d366;"></i>
+                            </div>
+                            <div class="contact-channel__text">
+                                <strong>WhatsApp</strong>
+                                <span>(46) 98820-6884</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://instagram.com/dti_informatica_palmas_pr" target="_blank" class="contact-channel">
+                            <div class="contact-channel__icon contact-channel__icon--instagram">
+                                <i class="ph-fill ph-instagram-logo" style="color: #ff2d78;"></i>
+                            </div>
+                            <div class="contact-channel__text">
+                                <strong>Instagram</strong>
+                                <span>@dti_informatica_palmas_pr</span>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-channel">
+                            <div class="contact-channel__icon contact-channel__icon--email">
+                                <i class="ph-fill ph-envelope-simple" style="color: #00f0ff;"></i>
+                            </div>
+                            <div class="contact-channel__text">
+                                <strong>Email</strong>
+                                <span>dtiinformaticapr@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form animate-on-scroll" style="transition-delay: 0.2s;">
+                    <form action="#" method="POST" id="contactForm">
+                        <div class="form__group">
+                            <label class="form__label" for="name">Nome / Gamertag</label>
+                            <input type="text" id="name" class="form__input" placeholder="Como devemos te chamar?" required>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="phone">WhatsApp</label>
+                            <input type="tel" id="phone" class="form__input" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="service">Serviço Desejado</label>
+                            <select id="service" class="form__input" required>
+                                <option value="" disabled selected>Selecione uma opção...</option>
+                                <option value="montagem">Montagem de PC Novo</option>
+                                <option value="upgrade">Upgrade de Peças</option>
+                                <option value="manutencao">Manutenção/Limpeza</option>
+                                <option value="outro">Outro / Dúvida</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="message">Mensagem (Detalhes do Setup/Orçamento)</label>
+                            <textarea id="message" class="form__textarea" placeholder="Descreva o que você precisa..." required></textarea>
+                        </div>
+                        <button type="submit" class="form__submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="navbar__logo" style="display: inline-block;">
+                        <img src="assets/images/logo.jpg" alt="DTI Informática" style="height: 64px; width: 64px; border-radius: 50%; border: 2px solid var(--neon-cyan);">
+                    </a>
+                    <p>Sua referência em alta performance e estética em Palmas, PR. Transformando setups em máquinas de respeito.</p>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" class="footer__social"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                        <a href="#" class="footer__social"><i class="ph-fill ph-tiktok-logo"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer__links-col">
+                    <h4 class="footer__title">Navegação</h4>
+                    <div class="footer__links">
+                        <a href="#hero">Início</a>
+                        <a href="#about">Sobre a DTI</a>
+                        <a href="#services">Serviços</a>
+                        <a href="#gallery">Projetos</a>
+                    </div>
+                </div>
+                
+                <div class="footer__links-col">
+                    <h4 class="footer__title">Serviços</h4>
+                    <div class="footer__links">
+                        <a href="#services">Montagem Custom</a>
+                        <a href="#services">Cable Management</a>
+                        <a href="#services">Limpeza Profunda</a>
+                        <a href="#services">Consultoria de Hardware</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2026 DTI Informática. Todos os direitos reservados.</p>
+                <p>Palmas - PR</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5546988206884" class="whatsapp-float" target="_blank">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+        <div class="whatsapp-float__tooltip">Faça um orçamento!</div>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle (Simples para demonstração, idealmente adicionaria classes no CSS)
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        mobileToggle.addEventListener('click', () => {
+            navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+            if(navMenu.style.display === 'flex'){
+                navMenu.style.flexDirection = 'column';
+                navMenu.style.position = 'absolute';
+                navMenu.style.top = '70px';
+                navMenu.style.left = '0';
+                navMenu.style.width = '100%';
+                navMenu.style.background = 'rgba(10,10,15,0.95)';
+                navMenu.style.padding = '20px';
+                navMenu.style.gap = '20px';
+                navMenu.style.backdropFilter = 'blur(10px)';
+            }
+        });
+
+        // Scroll Animation Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+            observer.observe(el);
+        });
+        
+        // Form submit override to whatsapp (opcional)
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const service = document.getElementById('service').value;
+            const msg = document.getElementById('message').value;
+            
+            const text = `Olá, meu nome é ${name}. Tenho interesse em ${service}. Mensagem: ${msg}`;
+            const encoded = encodeURIComponent(text);
+            
+            window.open(`https://wa.me/5546988206884?text=${encoded}`, '_blank');
+        });
+
+
+    </script>
+</body>
+</html>
